@@ -26,9 +26,9 @@
 #share-controls a {
   text-decoration: none;
   font-size: 1.25rem;
-  background: #36007c;
+  background: var(--main-color);
   color: white;
-  border: 1px solid #36007c;
+  border: 1px solid var(--main-color);
   border-radius: 6px;
   padding: 0.5rem 1.5rem;
   margin: 0.5rem 0;
@@ -41,6 +41,6 @@
 
 #share-controls a:hover,
 #share-controls a:active {
-  background: #55007c;
-  border-color: #55007c;
+  background: var(--main-color-lighter);
+  border-color: var(--main-color-lighter);
 }

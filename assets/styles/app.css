@@ -1,3 +1,8 @@
+:root {
+  --main-color: #03316d;
+  --main-color-lighter: #06408d;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +16,7 @@ body {
 }
 
 header {
-  background: #36007c;
+  background: var(--main-color);
   width: 100%;
   height: 4rem;
   display: flex;
@@ -29,9 +34,9 @@ header h1 {
 button {
   font: inherit;
   font-size: 1.25rem;
-  background: #36007c;
+  background: var(--main-color);
   color: white;
-  border: 1px solid #36007c;
+  border: 1px solid var(--main-color);
   border-radius: 6px;
   padding: 0.5rem 1.5rem;
   margin: 0.5rem 0;
@@ -44,8 +49,8 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #55007c;
-  border-color: #55007c;
+  background: var(--main-color-lighter);
+  border-color: var(--main-color-lighter);
 }
 
 button:disabled,
@@ -101,8 +106,8 @@ button:disabled:active {
   height: 46px;
   margin: 1px;
   border-radius: 50%;
-  border: 5px solid #36007c;
-  border-color: #36007c transparent #36007c transparent;
+  border: 5px solid var(--main-color);
+  border-color: var(--main-color) transparent var(--main-color) transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {

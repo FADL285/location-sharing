@@ -20,8 +20,8 @@ input {
 
 input:focus {
   outline: none;
-  background: #efe3ff;
-  border-color: #36007c;
+  background: #e3f3ff;
+  border-color: var(--main-color);
 }
 
 #selected-place {
