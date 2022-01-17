@@ -1,8 +1,8 @@
-import { MapLoader } from '../Utilities/MapLoader';
+import { mapLoader } from '../Utilities/MapLoader';
 
 export class Map {
   constructor(coords) {
-    this.loader = MapLoader.load();
+    this.loader = mapLoader();
     this.render(coords);
   }
 
