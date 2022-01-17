@@ -8,18 +8,18 @@ Share places using Google API
 1. Clone the repo.
 2. Install dependencies.
 
-    ```npm install```
+    ```yarn```
 
 3. For Development server run:
 
-    ```npm run dev```
+    ```yarn dev```
 
 4. For Build:
 
-    ```npm run build```
+    ```yarn build```
 
 5. For Preview the build:
 
-    ```npm run preview```
+    ```yarn preview```
 
 ---
