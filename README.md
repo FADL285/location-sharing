@@ -1,5 +1,5 @@
-# share-place
-Share places using Google API
+# Location Sharing App
+location sharing app using Google Maps API
 
 ---
 
