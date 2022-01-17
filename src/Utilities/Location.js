@@ -14,7 +14,7 @@ export async function getAddressFromCoords(coordinates) {
     throw new Error('Invalid Address, Please try again.');
 
   const address = data.results[0].formatted_address;
-
+  console.log(address);
   return address;
 }
 
